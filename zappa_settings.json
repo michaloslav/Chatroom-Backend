@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "aws_region": "us-east-2",
+        "django_settings": "ChatroomServer.settings",
+        "profile_name": "default",
+        "project_name": "chatroomserver",
+        "runtime": "python3.7",
+        "s3_bucket": "michaloslav-chatroom",
+        "extra_permissions": [{
+            "Effect": "Allow",
+            "Action": ["rekognition:*"],
+            "Resource": "*"
+        }]
+    }
+}
